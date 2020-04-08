@@ -1,0 +1,22 @@
+hello:
+  swagger:
+    enabled: true
+    description: 实现多数据源切换，在数据库master和slave之间进行切换
+    version: 0.0.1-SNAPSHOT
+    basePackages: com.database.multi.datasource
+    termsOfServiceUrl: www.baidu.com
+    contact:
+      name: XXXX有限公司
+      email: zhasdfse@gmial.com
+      url: http://www.ijgkdn.com.cn
+    liscense: Apache开源kds
+    liscenseUrl: apache@tim.com
+    vendorExtensions:
+      - name: 提供商1
+        value: 123
+      - name: 提供商2
+        value: 456
+    paths:
+      - /user/**
+    title: 多数据源切换
+
